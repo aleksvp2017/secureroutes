@@ -1,0 +1,26 @@
+{
+  "name": "secureroutes",
+  "version": "1.0.0",
+  "description": "Node project to demonstrate how to secure endpoints",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aleksvp2017/secureroutes.git"
+  },
+  "author": "Aleksander Velozo Pascoal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aleksvp2017/secureroutes/issues"
+  },
+  "homepage": "https://github.com/aleksvp2017/secureroutes#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-bearer-token": "^2.4.0",
+    "express-load": "^1.1.16",
+    "jsonwebtoken": "^8.5.1",
+    "nodemon": "^2.0.7"
+  }
+}
